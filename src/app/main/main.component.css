@@ -1,0 +1,85 @@
+.mainBox{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    height: 100vh;
+    background-color: #347734;
+
+}
+
+.mainText{
+    background-color: #347734;
+    
+    
+}
+.mainText h2{
+    color: white;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 70px;
+}
+
+.mainImage{
+    display: grid;
+    grid-template-rows: 90% 10%;
+    background-image: url("/assets/img/bg/flowers_main.jpg");
+    background-size: cover;
+    height: 65vh;
+    margin: 30px;
+}
+
+.imgMain{
+    height: 100%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foundMe{
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+.foundMe a{
+    font-size: 25px;
+    background-color: #8bc34a;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.mainPrev{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.701);
+    height: 10vh;
+}
+
+
+.productsPreview{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Advent Pro', sans-serif;
+}
+
+
+.priceInfo{
+    color: white;
+    margin-left: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.startprice{
+    font-size: 15px;
+}
+.price{
+    font-size: 25px;
+    margin: 0px;
+}

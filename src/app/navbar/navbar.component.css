@@ -1,0 +1,42 @@
+/* NAVIGATION*/
+
+.navbar{
+    height: 10vh;
+    background-color: #4caf50;
+    filter: drop-shadow(2px 4px 6px black);
+margin-top: 0px;
+}
+
+.navbar ul{
+    display: grid;
+    grid-template-columns: 25% 10% 20% 10%;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.navitem{
+    color: white;
+    font-size: 25px;
+    font-family: 'Advent Pro', sans-serif;
+    /*background-color: #8bc34a;*/
+    border-bottom: 5px solid #8bc34a;
+    padding: 15px;
+    margin: auto;
+    transition: 500ms ease;
+    cursor: pointer;
+}
+
+.navitem:hover{
+    border-bottom: 8px solid #428e38;
+    transition: ease 400ms;
+}
+
+
+.logo h1{
+    color: white;
+    filter: drop-shadow(2px 4px 6px black);
+
+    font-family: 'Montserrat Alternates', sans-serif;
+}
